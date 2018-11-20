@@ -1,22 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 1.265vw;
+}
+
 
 h1 {
-  font-family: 'Jura';
+  font-family: 'Jura-Regular';
   text-align: center;
+  font-size: 2.65em;
 }
 
 h2 {
   font-family: 'Jura-Regular';
   text-align: center;
+  font-size: 2em;
 }
 
 h3 {
   font-family: 'Jura-Regular';
   text-align: center;
+  font-size: 1.4em;
 }
 
 p {
   font-family: 'Mada-Regular';
-  text-align:center;
+  text-align: center;
+  font-size: 1em;
 }
 
 @import './fonts';
