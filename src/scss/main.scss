@@ -1,0 +1,25 @@
+
+h1 {
+  font-family: 'Jura';
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Jura-Regular';
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Jura-Regular';
+  text-align: center;
+}
+
+p {
+  font-family: 'Mada-Regular';
+  text-align:center;
+}
+
+@import './fonts';
+@import './slider';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
