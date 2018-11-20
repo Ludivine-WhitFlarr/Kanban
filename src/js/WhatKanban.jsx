@@ -5,7 +5,7 @@ import EtapeKanban from '../image/EtapeKanban.png';
 class WhatKanban extends Component {
   render(){
     return(
-      <div className="WhatKanban aligned">
+      <div className="WhatKanban">
         <h2>Qu'est-ce que c'est la methode Kanban ?</h2>
         <ul>
           <li>

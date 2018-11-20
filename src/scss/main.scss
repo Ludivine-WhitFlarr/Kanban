@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  padding: 0 20vw;
   font-size: 1.265vw;
 }
 
@@ -28,23 +29,18 @@ p {
   font-size: 1em;
 }
 
-.aligned {
-  margin-left: 20vw;
-  margin-right: 20vw;
-}
 
 @media all and (max-width:1200px) {
   body {
-    font-size: 18.5px;
+    font-size: 14px;
+    padding: 0 12vw;
   }
-  .aligned {
-    margin-left: 12vw;
-    margin-right: 12vw;
-  }
+
 }
 
 
 @import './fonts';
+@import './footer';
 @import './slider';
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";

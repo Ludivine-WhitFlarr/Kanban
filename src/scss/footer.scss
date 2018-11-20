@@ -1,0 +1,21 @@
+// main : main.scss
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  >ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  h2{
+    text-align: left;
+  }
+}
+
+@media all and (max-width: 900px){
+  footer {
+    flex-direction: column;
+  }
+}
