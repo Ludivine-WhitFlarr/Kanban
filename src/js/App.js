@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Header from './header';
 import SliderKanban from './Slider';
 import Pratique from './pratique';
+import WhatKanban from './WhatKanban';
 import Footer from './footer';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
         <Header/>
         <SliderKanban />
         <Pratique />
+        <WhatKanban />
         <Footer />
       </Fragment>
     );
