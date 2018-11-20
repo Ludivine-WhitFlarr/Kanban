@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  padding: 0 20vw;
   font-size: 1.265vw;
 }
 
@@ -25,11 +26,18 @@ h3 {
 
 p {
   font-family: 'Mada-Regular';
-  text-align: center;
   font-size: 1em;
 }
 
+
+@media all and (max-width: 900px){
+  body {
+    font-size: 14px;
+  }
+}
+
 @import './fonts';
+@import './footer';
 @import './slider';
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
