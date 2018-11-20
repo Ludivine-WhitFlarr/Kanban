@@ -1,0 +1,14 @@
+// main : main.scss
+
+ .LesGrandPrincipesKanban {
+   h2 {}
+    ul {
+      list-style-type: none;
+      justify-content: space-around;
+      display: flex;
+      li {
+        font-size: 8em;
+        padding-top: 5vh;
+      }
+    }
+ }
