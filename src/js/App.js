@@ -14,9 +14,9 @@ class App extends Component {
         <Header/>
         <SliderKanban />
         <WhatKanban />
+        <GrandPrincipeKanban />
         <Pratique />
         <Dev_Kanban />
-        <GrandPrincipeKanban />
         <Footer />
       </Fragment>
     );
