@@ -1,0 +1,22 @@
+// main : main.scss
+.dev_kanban{
+  >div {
+  display: flex;
+  flex-direction: row;
+    >ul,img {
+      width: 50%;
+    }
+  }
+}
+
+@media all and (max-width:900px) {
+  .dev_kanban{
+    >div{
+      flex-direction: column;
+      >ul,img {
+        width: 100%;
+      }
+    }
+  }
+
+}
