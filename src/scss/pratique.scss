@@ -1,0 +1,18 @@
+// main : main.scss
+
+.ListePratique{
+  ul{
+    list-style: none;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .ListePratique{
+    padding-top: 5vh;
+
+    ul{
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

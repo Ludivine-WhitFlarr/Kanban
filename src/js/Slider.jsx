@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import sliderImage1 from '../image/sliderImage1.jpeg'
-import sliderImage2 from '../image/sliderImage2.png'
+import sliderImage1 from '../image/sliderImage1.jpeg';
+import sliderImage2 from '../image/sliderImage2.png';
 
 
 class SliderKanban extends Component {
