@@ -1,6 +1,8 @@
 // main : main.scss
 
 .slider {
+  z-index: 99999999;
+  padding-top: 15vh;
   div {
     img {
       background-size:100%;
