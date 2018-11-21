@@ -4,6 +4,7 @@ import SliderKanban from './Slider';
 import Pratique from './pratique';
 import Dev_Kanban from './Dev_Kanban';
 import WhatKanban from './WhatKanban';
+import GrandPrincipeKanban from './grandPrincipeKanban';
 import Footer from './footer';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <WhatKanban />
         <Pratique />
         <Dev_Kanban />
+        <GrandPrincipeKanban />
         <Footer />
       </Fragment>
     );
