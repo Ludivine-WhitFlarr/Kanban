@@ -3,23 +3,35 @@ import React, { Component } from 'react';
 class GrandPrincipe extends Component {
   render() {
     return(
-      <div className="LesGrandPrincipesKanban">
-        <h2>Les grands principes de la méthode kanban</h2>
+      <div className="Principe">
+        <h2>Les Grands Principes de Kanban</h2>
           <ul>
             <li>
-              <i class="fas fa-thumbs-up"></i>
+              <i className="fas fa-thumbs-up"></i>
+              <div className="overlay">
+                <div className="text">Hello World</div>
+              </div>
             </li>
 
             <li>
-              <i class="fas fa-hands-helping"></i>
+              <i className="fas fa-hands-helping"></i>
+              <div className="overlay">
+                <div className="text">Hello World</div>
+              </div>
             </li>
 
             <li>
-              <i class="fas fa-play"></i>
+              <i className="fas fa-play"></i>
+              <div className="overlay">
+                <div className="text">Hello World</div>
+              </div>
             </li>
 
             <li>
-              <i class="fas fa-undo-alt"></i>
+              <i className="fas fa-undo-alt"></i>
+              <div className="overlay">
+                <div className="text">Hello World</div>
+              </div>
             </li>
           </ul>
       </div>
