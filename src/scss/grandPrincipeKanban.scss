@@ -5,9 +5,9 @@
   ul {
     display: flex;
     padding: 0;
-    margin-left: 10vw;
+    flex-direction: column;
+    margin-left: 22vw;
     list-style: none;
-    flex-wrap: wrap;
     li {
       flex-basis: 50%;
       margin-top: 10vh;
@@ -24,7 +24,7 @@
        left: 0;
        right: 0;
        height: 100%;
-       transform: translateX(-10%);
+       transform: translateX(-20%);
        border-radius: 40px;
        width: 100%;
        opacity: 0;
@@ -48,6 +48,12 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+      h3 {
+        font-size: 1em;
+      }
+      p {
+    font-size: 0.7em;
+  }
 }
 
 
