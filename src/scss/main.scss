@@ -1,9 +1,7 @@
 body{
   margin: 0;
-  padding: 0;
-  padding: 0 20vw;
+  padding: 0 15vw;
   font-size: 1.265vw;
-  padding: 0 20vw;
 }
 
 
@@ -41,10 +39,8 @@ p {
 
 
 @import './fonts';
-@import './pratique';
 @import './footer';
 @import './slider';
-@import './Dev_Kanban';
 @import './header';
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";

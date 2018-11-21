@@ -17,6 +17,7 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
-src/scss/main.min.css
+stylesheets/
+main.min.css
 
 node_modules/
