@@ -1,0 +1,31 @@
+//main: main.scss
+
+.WhatKanban {
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    li {
+      flex-basis: 50%;
+      div {
+        width: 100%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    li:last-child{
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+
+@media all and (max-width:1000px) {
+  .WhatKanban {
+    ul {
+      flex-direction: column;
+    }
+  }
+}
