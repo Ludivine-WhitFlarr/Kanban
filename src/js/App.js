@@ -12,9 +12,9 @@ class App extends Component {
       <Fragment>
         <Header/>
         <SliderKanban />
+        <WhatKanban />
         <Pratique />
         <Dev_Kanban />
-        <WhatKanban />
         <Footer />
       </Fragment>
     );
